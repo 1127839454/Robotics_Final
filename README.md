@@ -37,7 +37,7 @@ python main.py
 
 ## Key Components
 
-- **main.py**: The primary script that orchestrates ball detection
+- **main.py**: The script for controlling the car's operation
 - **yolov5/**: Contains the YOLOv5 object detection framework with additional voice and video recognition capabilities
 - **voice_video_recognition.py**: Located in the yolov5 directory, this module handles voice and video recognition functionality
 - **model/**: Stores trained model weights and configurations
