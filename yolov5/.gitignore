@@ -1,0 +1,49 @@
+# Python 编译缓存
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook checkpoint
+.ipynb_checkpoints/
+
+# 模型文件
+*.pt
+*.pth
+*.onnx
+*.weights
+
+# 临时日志和输出
+*.log
+*.tmp
+*.out
+
+# 视频和图片输出
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.mp4
+*.avi
+
+# VSCode 配置文件（可选）
+.vscode/
+
+# YOLOv5 特定目录（训练/推理输出）
+runs/
+
+# 数据文件示例（仅忽略具体文件，不忽略结构）
+data/*.cache
+data/*.zip
+data/*.tar
+data/*.tar.gz
+data/*.jpg
+data/*.png
+
+# 不忽略源码、配置和标注文件
+!*.py
+!*.yaml
+!*.txt
+!*.md
+
+# 如果 yolov5 是子模块或源码文件夹，确保它不被忽略
+!yolov5/
+!yolov5/**
